@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+       <p><label for="iname">Nome:</label> <input type="text" name="nome" id="iname" required></p>
+       <p><label for="iage">Idade:</label> <input type="number" name="idade" id="iage" required></p>
+       <p><label for="iemail">E-mail:</label><input type="email" name="email" id="iemail" required></p>
+       <p><label for="igender">Gênero:</label> 
+        <input type="radio" name="genero" id="ifem" value="feminino"><label for="ifem">Feminino</label> 
+        <input type="radio" name="genero" id="imasc" value="masculino"><label for="imasc">Masculino</label> 
+       </p>
+       <p><label for="itype">Tipo de carro:</label>
+        <input type="checkbox" name="tipo de carro" id="isport" value="esportivo"><label for="isport">Esportivo</label>
+        <input type="checkbox" name="tipo de carro" id="isuv" value="SUV"><label for="isuv">SUV</label> 
+        <input type="checkbox" name="tipo de carro" id="iseda" value="seda"><label for="iseda">Sedã</label>
+        <input type="checkbox" name="tipo de carro" id="ihatch" value="hatch"><label for="ihatch">Hatch</label> 
+        <input type="checkbox" name="tipo de carro" id="ipicape" value="picape"><label for="ipicape">Picape</label> 
+        <p>
+        <p><label for="iest">Estado do veículo:</label> 
+            <input type="checkbox" name="estado do veiculo" id="inew" value="novo"><label for="inew">Novo</label> 
+            <input type="checkbox" name="estado do veiculo" id="isemnew" value="seminovo"><label for="isemnew">Seminovo</label> 
+        </p>
+        <p><label for="ilogo">Marca:</label> 
+            <input type="checkbox" name="marca" id="ihyundai" value="hyundai"><label for="ihyundai">Hyundai</label> 
+            <input type="checkbox" name="marca" id="itoyota" value="toyota"><label for="itoyota">Toyota</label> 
+            <input type="checkbox" name="marca" id="ipeugeot" value="peugeot"><label for="ipeugeot">Peugeot</label> 
+            <input type="checkbox" name="marca" id="icitroen" value="citroen"><label for="icitroen">Citroen</label> 
+            <input type="checkbox" name="marca" id="iaudi" value="audi"><label for="iaudi">Audi</label> 
+            <input type="checkbox" name="marca" id="ivolvo" value="volvo"><label for="ivolvo">Volvo</label> 
+            <input type="checkbox" name="marca" id="ibmw" value="bmw"><label for="ibmw">BMW</label> 
+            <input type="checkbox" name="marca" id="ijeep" value="jeep"><label for="ijeep">JEEP</label> 
+            <input type="checkbox" name="marca" id="iporsche" value="porsche"><label for="iporsche">Porsche</label> 
+        </p>
+        <p><label for="idoor">Portas:</label>  
+            <input type="checkbox" name="portas" id="itwo" value="2"><label for="itwo">2</label> 
+            <input type="checkbox" name="portas" id="ifour" value="4"><label for="ifour">4</label> 
+        </p>
+        <p><label for="icam">Câmbio:</label>  
+            <input type="checkbox" name="cambio" id="iauto" value="automatico"><label for="iauto">Automático</label> 
+            <input type="checkbox" name="cambio" id="isemauto" value="semi-automatico"><label for="isemauto">Semi-Automático</label> 
+            <input type="checkbox" name="cambio" id="imanual" value="manual"><label for="imanual">Manual</label> 
+        </p>
+        <p><label for="idirection">Direção:</label> 
+            <input type="checkbox" name="direcao" id="ihid" value="hidraulica"><label for="ihid">Hidráulica</label> 
+            <input type="checkbox" name="direcao" id="imec" value="mecanica"><label for="imec">Mecânica</label> 
+            <input type="checkbox" name="direcao" id="ieletric" value="eletrica"><label for="ieletric">Elétrica</label> 
+            <input type="checkbox" name="direcao" id="iwatch" value="assistida"><label for="iwatch">Assistida</label> 
+        </p>
+        <p><label for="icolor">Cor:</label> 
+            <input type="checkbox" name="cor" id="iblack" value="preto"><label for="iblack">Preto</label> 
+            <input type="checkbox" name="cor" id="iwhite" value="branco"><label for="iwhite">Branco</label> 
+            <input type="checkbox" name="cor" id="ired" value="vermelho"><label for="ired">Vermelho</label> 
+            <input type="checkbox" name="cor" id="igrey" value="prata"><label for="igrey">Prata</label> 
+        </p>
+        <p><label for="mensagem">Mensagem:</label>  <textarea name="mensagem" id="mensagem"></textarea></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
