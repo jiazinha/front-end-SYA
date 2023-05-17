@@ -1,0 +1,20 @@
+body {
+    background-color: lemonchiffon;
+    color: rgb(190, 14, 14);
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+.text {
+    color: black;
+    font-size: medium;
+    text-align: center;
+    font-family: 'Itim', cursive;
+}
+
+#text2 {
+    color: black;
+    font-size: large;
+    font-family: 'Itim', cursive;
+    text-decoration: dotted underline;
+}
