@@ -1,0 +1,100 @@
+body {
+  background-color: #faf7f4;
+  width: 80%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  line-height: 1.9;
+  font-family: Lato, Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #d11f0f;
+  font-family: Alice, serif;
+  margin-bottom: -40px;
+}
+
+h2 {
+  text-align: center;
+  color: #d3aa14;
+  font-family: Alice, serif;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: red
+}
+
+.quote {
+  color: #d11f0f;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+}
+
+/* img */
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0.1rem;
+  text-align: center;
+}
+
+.polaroid {
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0 0.2rem 1.2rem #00000033;
+}
+
+.polaroid>img {
+  max-width: 100%;
+  height: auto;
+}
+
+.caption {
+  font-size: 100%;
+  text-align: center;
+  line-height: 2em;
+  padding-top: 1em;
+}
+
+.item {
+  width: 90%;
+  display: inline-block;
+  margin-top: 2rem;
+  filter: grayscale(100%);
+}
+
+.item:hover {
+  filter: none;
+  transform: scale(1, 1);
+  transition: all 0.35s;
+}
+
+.albuns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.albuns img {
+  width: 100%;
+  max-width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
